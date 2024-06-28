@@ -1,0 +1,50 @@
+.header-bg-container{
+    height: 7vh;
+    background-color: #2c0e3a;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    font-family: Roboto;
+}
+.header-time-score-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.match-game-logo{
+    width: 100px;
+    margin-left: 20px;
+}
+.timer-logo{
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.header-time-logo-time-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.custom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    color: #ffffff;
+    font-size: 20px;
+}
+.span-score{
+    color: #fec653;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.timer{
+    color:  #fec653;
+    font-size: 20px;
+}
