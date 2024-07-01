@@ -252,8 +252,8 @@ const tabsList = [
 
 const MatchGame = () => {
     const [activeTabId, setActiveTabId] = useState(tabsList[0].tabId)
-    const [activeImageUrl, setActiveImageUrl] = useState(imagesList[0].imageUrl)
-    const [time, setTime] = useState(60)
+    const [activeImageUrl, setActiveImageUrl] = useState(imagesList[Math.floor(Math.random() * imagesList.length)].imageUrl)
+    const [time, setTime] = useState(59)
     const [totalScore, setTotalScore] = useState(0)
     const [isGameOver, setIsGameOver] = useState(false)
 
@@ -294,7 +294,7 @@ const MatchGame = () => {
     }
     const handleResetButton = () => {
       setIsGameOver(false)
-      setTime(60)
+      setTime(59)
       setTotalScore(0)
     }
     return(
